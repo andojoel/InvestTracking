@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "leMXbTjb81A9QeJETReDyP95lRS6e/ktj44MTbBcmmc=",
+  "Source": "Services.SeedCurrencies",
+  "BasePath": "_content/Services.SeedCurrencies",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

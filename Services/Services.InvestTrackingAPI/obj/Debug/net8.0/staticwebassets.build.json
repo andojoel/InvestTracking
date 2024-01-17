@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BU15hnhX5llP6Kym5WZedStnC9BKjKpSqMyiBwuMMao=",
+  "Source": "Services.InvestTrackingAPI",
+  "BasePath": "_content/Services.InvestTrackingAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

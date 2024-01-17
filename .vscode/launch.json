@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (CurrencyAPI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildCurrencyAPI",
+            "program": "${workspaceFolder}/Services/Services.CurrencyAPI/bin/Debug/net8.0/Services.CurrencyAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Services/Services.CurrencyAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Launch (SeedCurrencies)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildSeedCurrencies",
+            "program": "${workspaceFolder}/Services/Services.SeedCurrencies/bin/Debug/net8.0/Services.SeedCurrencies.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Services/Services.SeedCurrencies",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Launch (InvestTrackingAPI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildInvestTrackingAPI",
+            "program": "${workspaceFolder}/Services/Services.InvestTrackingAPI/bin/Debug/net8.0/Services.InvestTrackingAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Services/Services.InvestTrackingAPI",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All apps",
+            "configurations": [
+                ".NET Core Launch (CurrencyAPI)",
+                ".NET Core Launch (SeedCurrencies)",
+                ".NET Core Launch (InvestTrackingAPI)"
+            ]
+        }
+    ]
+}
